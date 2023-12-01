@@ -7,7 +7,7 @@ mod HelloWorld {
     fn Hello(from: ContractAddress, value: felt252) {}
 
     #[external]
-    fn Say_Hello(message: felt252) {
+    fn Say_Hello_World(message: felt252) {
         let caller = get_caller_address();
         Hello(caller, message);
     }
