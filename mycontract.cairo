@@ -11,5 +11,4 @@ mod HelloWorld {
         let caller = get_caller_address();
         Hello(caller, message);
     }
-
 }
